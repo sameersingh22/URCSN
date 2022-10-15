@@ -1,0 +1,81 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello there, I hope you are having a great day. I am URCSN, how can I help you today?",
+          "Thank you for using URCSN! What can I do for you today?",
+          "Welcome to URCSN! How can I help you?",
+          "Welcome to URCSN! How can I be of service today?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "offerings",
+        "patterns": ["Programs in University", "List of programs", "Computer Science", "CS programs"],
+        "responses": ["There are multiple CS programs available at the University of Regina. We offer B. Sc. in Computer Science for undergraduate, as well as M. Sc. and PhD for graduate students. Which program would you like to know about?"]
+      },
+      {
+        "tag": "undergrad",
+        "patterns": [
+          "B.Sc in Computer Science",
+          "B.Sc",
+          "Bachelors",
+          "Undergraduate",
+          "Undergrad"
+        ],
+        "responses": [
+          "There are 40 courses required for the completion of the undergrad program.",
+          "To graduate with a B Sc in Computer Science, you need to complete 40 courses."
+        ]
+      },
+      {
+        "tag": "grad",
+        "patterns": [
+          "M.Sc in Computer Science",
+          "M.Sc",
+          "Masters",
+          "Graduate",
+          "Grad studies"
+        ],
+        "responses": [
+          "There are 3 routes for the M Sc Program: Thesis, Course and Project Route",
+          "To graduate with an M Sc, you can choose one of Thesis, Course, or Project route"
+        ]
+      },
+      {
+        "tag": "doctoral",
+        "patterns": [
+          "PhD in Computer Science",
+          "PhD",
+          "Doctoral",
+          "PhD in CS"
+        ],
+        "responses": [
+          "After your masters, you can pursue your PhD that involves 9 credit hours of courses and 51 credit hours of research.",
+          "To complete the PhD requirements, the student must complete 9 credit hours of courses and 51 credit hours of research."
+        ]
+      }
+    ]
+  }
